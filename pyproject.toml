@@ -10,7 +10,7 @@ python = "^3.10"
 loguru = "^0.7.0"
 
 [tool.poetry.group.test.dependencies]
-pylint = "^2.17.4"
+pylint = ">=2.17.4,<5.0.0"
 pytest = "^9.0.3"
 hypothesis = "^6.79.2"
 
